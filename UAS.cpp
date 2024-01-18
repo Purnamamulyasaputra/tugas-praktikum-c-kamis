@@ -27,7 +27,6 @@ int systemfuzzy(int level_kekeruhan_air) {
 
 int main() {
     int ntu[] = {6, 8, 12, 18, 24, 30, 36, 42, 49};
-    int rpm[] = {1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000};
     int level_kekeruhan_air, i;
 
     printf("Tekan Start\n");
