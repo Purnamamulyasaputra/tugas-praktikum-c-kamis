@@ -4,6 +4,8 @@
 int systemfuzzy(int level_kekeruhan_air) {
     if (level_kekeruhan_air <= 6) {
         return 2000;
+    } else if (level_kekeruhan_air <= 8) {
+	return 1000;
     } else if (level_kekeruhan_air <= 12) {
         return 1000;
     } else if (level_kekeruhan_air <= 18) {
